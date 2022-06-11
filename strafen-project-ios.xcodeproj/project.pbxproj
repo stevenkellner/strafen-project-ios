@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B03F7825285525E900D0C588 /* strafen_project_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */; };
+		B03F7827285525E900D0C588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7826285525E900D0C588 /* ContentView.swift */; };
+		B03F7829285525EC00D0C588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03F7828285525EC00D0C588 /* Assets.xcassets */; };
+		B03F782C285525EC00D0C588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03F782B285525EC00D0C588 /* Preview Assets.xcassets */; };
+		B03F7836285525ED00D0C588 /* strafen_project_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7835285525ED00D0C588 /* strafen_project_iosTests.swift */; };
+		B03F7840285525ED00D0C588 /* strafen_project_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F783F285525ED00D0C588 /* strafen_project_iosUITests.swift */; };
+		B03F7842285525ED00D0C588 /* strafen_project_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7841285525ED00D0C588 /* strafen_project_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B03F7832285525ED00D0C588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B03F7819285525E900D0C588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B03F7820285525E900D0C588;
+			remoteInfo = "strafen-project-ios";
+		};
+		B03F783C285525ED00D0C588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B03F7819285525E900D0C588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B03F7820285525E900D0C588;
+			remoteInfo = "strafen-project-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B03F7821285525E900D0C588 /* strafen-project-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strafen-project-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosApp.swift; sourceTree = "<group>"; };
+		B03F7826285525E900D0C588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B03F7828285525EC00D0C588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B03F782B285525EC00D0C588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B03F7831285525ED00D0C588 /* strafen-project-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "strafen-project-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03F7835285525ED00D0C588 /* strafen_project_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosTests.swift; sourceTree = "<group>"; };
+		B03F783B285525ED00D0C588 /* strafen-project-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "strafen-project-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03F783F285525ED00D0C588 /* strafen_project_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosUITests.swift; sourceTree = "<group>"; };
+		B03F7841285525ED00D0C588 /* strafen_project_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B03F781E285525E900D0C588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03F782E285525ED00D0C588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03F7838285525ED00D0C588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B03F7818285525E900D0C588 = {
+			isa = PBXGroup;
+			children = (
+				B03F7823285525E900D0C588 /* strafen-project-ios */,
+				B03F7834285525ED00D0C588 /* strafen-project-iosTests */,
+				B03F783E285525ED00D0C588 /* strafen-project-iosUITests */,
+				B03F7822285525E900D0C588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B03F7822285525E900D0C588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B03F7821285525E900D0C588 /* strafen-project-ios.app */,
+				B03F7831285525ED00D0C588 /* strafen-project-iosTests.xctest */,
+				B03F783B285525ED00D0C588 /* strafen-project-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B03F7823285525E900D0C588 /* strafen-project-ios */ = {
+			isa = PBXGroup;
+			children = (
+				B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */,
+				B03F7826285525E900D0C588 /* ContentView.swift */,
+				B03F7828285525EC00D0C588 /* Assets.xcassets */,
+				B03F782A285525EC00D0C588 /* Preview Content */,
+			);
+			path = "strafen-project-ios";
+			sourceTree = "<group>";
+		};
+		B03F782A285525EC00D0C588 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B03F782B285525EC00D0C588 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B03F7834285525ED00D0C588 /* strafen-project-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				B03F7835285525ED00D0C588 /* strafen_project_iosTests.swift */,
+			);
+			path = "strafen-project-iosTests";
+			sourceTree = "<group>";
+		};
+		B03F783E285525ED00D0C588 /* strafen-project-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B03F783F285525ED00D0C588 /* strafen_project_iosUITests.swift */,
+				B03F7841285525ED00D0C588 /* strafen_project_iosUITestsLaunchTests.swift */,
+			);
+			path = "strafen-project-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B03F7820285525E900D0C588 /* strafen-project-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03F7845285525ED00D0C588 /* Build configuration list for PBXNativeTarget "strafen-project-ios" */;
+			buildPhases = (
+				B03F781D285525E900D0C588 /* Sources */,
+				B03F781E285525E900D0C588 /* Frameworks */,
+				B03F781F285525E900D0C588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strafen-project-ios";
+			productName = "strafen-project-ios";
+			productReference = B03F7821285525E900D0C588 /* strafen-project-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B03F7830285525ED00D0C588 /* strafen-project-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03F7848285525ED00D0C588 /* Build configuration list for PBXNativeTarget "strafen-project-iosTests" */;
+			buildPhases = (
+				B03F782D285525ED00D0C588 /* Sources */,
+				B03F782E285525ED00D0C588 /* Frameworks */,
+				B03F782F285525ED00D0C588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B03F7833285525ED00D0C588 /* PBXTargetDependency */,
+			);
+			name = "strafen-project-iosTests";
+			productName = "strafen-project-iosTests";
+			productReference = B03F7831285525ED00D0C588 /* strafen-project-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B03F783A285525ED00D0C588 /* strafen-project-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03F784B285525ED00D0C588 /* Build configuration list for PBXNativeTarget "strafen-project-iosUITests" */;
+			buildPhases = (
+				B03F7837285525ED00D0C588 /* Sources */,
+				B03F7838285525ED00D0C588 /* Frameworks */,
+				B03F7839285525ED00D0C588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B03F783D285525ED00D0C588 /* PBXTargetDependency */,
+			);
+			name = "strafen-project-iosUITests";
+			productName = "strafen-project-iosUITests";
+			productReference = B03F783B285525ED00D0C588 /* strafen-project-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B03F7819285525E900D0C588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B03F7820285525E900D0C588 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B03F7830285525ED00D0C588 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B03F7820285525E900D0C588;
+					};
+					B03F783A285525ED00D0C588 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B03F7820285525E900D0C588;
+					};
+				};
+			};
+			buildConfigurationList = B03F781C285525E900D0C588 /* Build configuration list for PBXProject "strafen-project-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B03F7818285525E900D0C588;
+			productRefGroup = B03F7822285525E900D0C588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B03F7820285525E900D0C588 /* strafen-project-ios */,
+				B03F7830285525ED00D0C588 /* strafen-project-iosTests */,
+				B03F783A285525ED00D0C588 /* strafen-project-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B03F781F285525E900D0C588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03F782C285525EC00D0C588 /* Preview Assets.xcassets in Resources */,
+				B03F7829285525EC00D0C588 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03F782F285525ED00D0C588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03F7839285525ED00D0C588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B03F781D285525E900D0C588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03F7827285525E900D0C588 /* ContentView.swift in Sources */,
+				B03F7825285525E900D0C588 /* strafen_project_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03F782D285525ED00D0C588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03F7836285525ED00D0C588 /* strafen_project_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03F7837285525ED00D0C588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03F7842285525ED00D0C588 /* strafen_project_iosUITestsLaunchTests.swift in Sources */,
+				B03F7840285525ED00D0C588 /* strafen_project_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B03F7833285525ED00D0C588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B03F7820285525E900D0C588 /* strafen-project-ios */;
+			targetProxy = B03F7832285525ED00D0C588 /* PBXContainerItemProxy */;
+		};
+		B03F783D285525ED00D0C588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B03F7820285525E900D0C588 /* strafen-project-ios */;
+			targetProxy = B03F783C285525ED00D0C588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B03F7843285525ED00D0C588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B03F7844285525ED00D0C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B03F7846285525ED00D0C588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"strafen-project-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = K7NTJ83ZF8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B03F7847285525ED00D0C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"strafen-project-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = K7NTJ83ZF8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B03F7849285525ED00D0C588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7NTJ83ZF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strafen-project-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/strafen-project-ios";
+			};
+			name = Debug;
+		};
+		B03F784A285525ED00D0C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7NTJ83ZF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strafen-project-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/strafen-project-ios";
+			};
+			name = Release;
+		};
+		B03F784C285525ED00D0C588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7NTJ83ZF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "strafen-project-ios";
+			};
+			name = Debug;
+		};
+		B03F784D285525ED00D0C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7NTJ83ZF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "strafen-project-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B03F781C285525E900D0C588 /* Build configuration list for PBXProject "strafen-project-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03F7843285525ED00D0C588 /* Debug */,
+				B03F7844285525ED00D0C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03F7845285525ED00D0C588 /* Build configuration list for PBXNativeTarget "strafen-project-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03F7846285525ED00D0C588 /* Debug */,
+				B03F7847285525ED00D0C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03F7848285525ED00D0C588 /* Build configuration list for PBXNativeTarget "strafen-project-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03F7849285525ED00D0C588 /* Debug */,
+				B03F784A285525ED00D0C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03F784B285525ED00D0C588 /* Build configuration list for PBXNativeTarget "strafen-project-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03F784C285525ED00D0C588 /* Debug */,
+				B03F784D285525ED00D0C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B03F7819285525E900D0C588 /* Project object */;
+}
