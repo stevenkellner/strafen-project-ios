@@ -33,9 +33,11 @@ let package = Package(
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseFunctions", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk")
-            ]),
+            ]
+        ),
         .testTarget(
             name: "FirebaseInterfaceTests",
-            dependencies: ["FirebaseInterface"]),
+            dependencies: ["FirebaseInterface"]
+        ),
     ]
 )

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B016A38528565D7A007A1E7B /* CodableFirebase in Frameworks */ = {isa = PBXBuildFile; productRef = B016A38428565D7A007A1E7B /* CodableFirebase */; };
-		B034D1662855E35C0061E86F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B034D1652855E35C0061E86F /* GoogleService-Info.plist */; };
 		B034D1692855E5390061E86F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B034D1682855E5390061E86F /* FirebaseAuth */; };
 		B034D16B2855E5390061E86F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B034D16A2855E5390061E86F /* FirebaseDatabase */; };
 		B034D16D2855E5390061E86F /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = B034D16C2855E5390061E86F /* FirebaseFunctions */; };
@@ -40,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B034D1652855E35C0061E86F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B02395F5285CC311009B5207 /* StrafenProjectTypes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = StrafenProjectTypes; sourceTree = "<group>"; };
 		B03F7821285525E900D0C588 /* strafen-project-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strafen-project-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosApp.swift; sourceTree = "<group>"; };
 		B03F7826285525E900D0C588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		B03F7818285525E900D0C588 = {
 			isa = PBXGroup;
 			children = (
+				B02395F5285CC311009B5207 /* StrafenProjectTypes */,
 				B03F784F28552BB600D0C588 /* FirebaseInterface */,
 				B03F7823285525E900D0C588 /* strafen-project-ios */,
 				B03F7834285525ED00D0C588 /* strafen-project-iosTests */,
@@ -108,7 +108,6 @@
 		B03F7823285525E900D0C588 /* strafen-project-ios */ = {
 			isa = PBXGroup;
 			children = (
-				B034D1652855E35C0061E86F /* GoogleService-Info.plist */,
 				B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */,
 				B03F7826285525E900D0C588 /* ContentView.swift */,
 				B03F7828285525EC00D0C588 /* Assets.xcassets */,
@@ -259,7 +258,6 @@
 			files = (
 				B03F782C285525EC00D0C588 /* Preview Assets.xcassets in Resources */,
 				B03F7829285525EC00D0C588 /* Assets.xcassets in Resources */,
-				B034D1662855E35C0061E86F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
