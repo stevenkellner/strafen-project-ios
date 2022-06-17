@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B016A38528565D7A007A1E7B /* CodableFirebase in Frameworks */ = {isa = PBXBuildFile; productRef = B016A38428565D7A007A1E7B /* CodableFirebase */; };
+		B034D1662855E35C0061E86F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B034D1652855E35C0061E86F /* GoogleService-Info.plist */; };
+		B034D1692855E5390061E86F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B034D1682855E5390061E86F /* FirebaseAuth */; };
+		B034D16B2855E5390061E86F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B034D16A2855E5390061E86F /* FirebaseDatabase */; };
+		B034D16D2855E5390061E86F /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = B034D16C2855E5390061E86F /* FirebaseFunctions */; };
+		B034D16F2855E5390061E86F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B034D16E2855E5390061E86F /* FirebaseStorage */; };
 		B03F7825285525E900D0C588 /* strafen_project_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */; };
 		B03F7827285525E900D0C588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7826285525E900D0C588 /* ContentView.swift */; };
 		B03F7829285525EC00D0C588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03F7828285525EC00D0C588 /* Assets.xcassets */; };
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B034D1652855E35C0061E86F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B03F7821285525E900D0C588 /* strafen-project-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strafen-project-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosApp.swift; sourceTree = "<group>"; };
 		B03F7826285525E900D0C588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		B03F783B285525ED00D0C588 /* strafen-project-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "strafen-project-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03F783F285525ED00D0C588 /* strafen_project_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosUITests.swift; sourceTree = "<group>"; };
 		B03F7841285525ED00D0C588 /* strafen_project_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strafen_project_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B03F784F28552BB600D0C588 /* FirebaseInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FirebaseInterface; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B034D16D2855E5390061E86F /* FirebaseFunctions in Frameworks */,
+				B034D16F2855E5390061E86F /* FirebaseStorage in Frameworks */,
+				B034D16B2855E5390061E86F /* FirebaseDatabase in Frameworks */,
+				B016A38528565D7A007A1E7B /* CodableFirebase in Frameworks */,
+				B034D1692855E5390061E86F /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,7 @@
 		B03F7818285525E900D0C588 = {
 			isa = PBXGroup;
 			children = (
+				B03F784F28552BB600D0C588 /* FirebaseInterface */,
 				B03F7823285525E900D0C588 /* strafen-project-ios */,
 				B03F7834285525ED00D0C588 /* strafen-project-iosTests */,
 				B03F783E285525ED00D0C588 /* strafen-project-iosUITests */,
@@ -94,6 +108,7 @@
 		B03F7823285525E900D0C588 /* strafen-project-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B034D1652855E35C0061E86F /* GoogleService-Info.plist */,
 				B03F7824285525E900D0C588 /* strafen_project_iosApp.swift */,
 				B03F7826285525E900D0C588 /* ContentView.swift */,
 				B03F7828285525EC00D0C588 /* Assets.xcassets */,
@@ -143,6 +158,13 @@
 			dependencies = (
 			);
 			name = "strafen-project-ios";
+			packageProductDependencies = (
+				B034D1682855E5390061E86F /* FirebaseAuth */,
+				B034D16A2855E5390061E86F /* FirebaseDatabase */,
+				B034D16C2855E5390061E86F /* FirebaseFunctions */,
+				B034D16E2855E5390061E86F /* FirebaseStorage */,
+				B016A38428565D7A007A1E7B /* CodableFirebase */,
+			);
 			productName = "strafen-project-ios";
 			productReference = B03F7821285525E900D0C588 /* strafen-project-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +237,10 @@
 				Base,
 			);
 			mainGroup = B03F7818285525E900D0C588;
+			packageReferences = (
+				B034D1672855E5390061E86F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B016A38328565D7A007A1E7B /* XCRemoteSwiftPackageReference "CodableFirebase" */,
+			);
 			productRefGroup = B03F7822285525E900D0C588 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +259,7 @@
 			files = (
 				B03F782C285525EC00D0C588 /* Preview Assets.xcassets in Resources */,
 				B03F7829285525EC00D0C588 /* Assets.xcassets in Resources */,
+				B034D1662855E35C0061E86F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +447,13 @@
 				DEVELOPMENT_TEAM = K7NTJ83ZF8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Strafen;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +461,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +482,13 @@
 				DEVELOPMENT_TEAM = K7NTJ83ZF8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Strafen;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +496,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "stevenkellner.strafen-project-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +622,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B016A38328565D7A007A1E7B /* XCRemoteSwiftPackageReference "CodableFirebase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alickbass/CodableFirebase.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+		B034D1672855E5390061E86F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B016A38428565D7A007A1E7B /* CodableFirebase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B016A38328565D7A007A1E7B /* XCRemoteSwiftPackageReference "CodableFirebase" */;
+			productName = CodableFirebase;
+		};
+		B034D1682855E5390061E86F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B034D1672855E5390061E86F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B034D16A2855E5390061E86F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B034D1672855E5390061E86F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		B034D16C2855E5390061E86F /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B034D1672855E5390061E86F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		B034D16E2855E5390061E86F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B034D1672855E5390061E86F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B03F7819285525E900D0C588 /* Project object */;
 }
